@@ -37,7 +37,8 @@ export default function Layout3() {
     <View style={{flex: 1}}>
         <StatusBar style="auto" />
         <SafeAreaView style={styles.container}>
-            <LinearGradient
+           
+        <LinearGradient
                 colors={["#3b3b98", "#c4c4c4"]}
                 style={{flex: 1, padding: 20}}
             >
@@ -52,6 +53,7 @@ export default function Layout3() {
                         style={{marginTop: 40, backgroundColor: "#151537"
                         , width: "100%", paddingHorizontal: 15, paddingVertical: 18, color: "#fff", fontSize: 18}}
                         value={password}
+                       
                         onChangeText={handleChangePassword}
                     />
                     <View style={{width: "100%", marginTop: 60}}>
@@ -78,7 +80,8 @@ export default function Layout3() {
                             />
                         </View>
                         <View style={{marginBottom: 35, flexDirection: "row",justifyContent: "space-between", alignItems: "center"}}>
-                            <Text style={{color: "#fff", fontSize: 20}}>Include number</Text>
+                            
+                        <Text style={{color: "#fff", fontSize: 20}}>Include number</Text>
                             <CheckCustom styles={{width: 25, height: 25, backgroundColor: "#fff"}}
                                 value={isNumber}
                             
@@ -94,6 +97,7 @@ export default function Layout3() {
 
                     </View>
 
+                    
                     <Pressable style={{marginHorizontal: 8, marginTop: 20}}>
                         <Text style={{color:"#FFF", fontSize: 18, textAlign: "center", backgroundColor: "#3b3b98"
                     , paddingVertical: 16, fontWeight: "700"}}>
