@@ -6,11 +6,15 @@ export default function Layout2() {
   return (
     <>
     <StatusBar style="auto" />
-    
+    {/* bat dau layout 2 */}
     <SafeAreaView style={styles.container}>
+
+
         <View style={{flex: 1, padding:20}}>
             <View style={styles.containerHeaderUsb}>
-                <Image source={require("../../../assets/usb.png")}
+                
+
+            <Image source={require("../../../assets/usb.png")}
                     resizeMode='contain'
                     style={styles.imageUsb}
                 />
@@ -22,6 +26,7 @@ export default function Layout2() {
             <View style={{marginBottom: "30", paddingHorizontal: "10"}}>
                 <Text style={{textAlign: "center", fontWeight: "700", fontSize: 18, marginBottom: "15"}}>Cực kỳ hài lòng</Text>
                 <View style={{flexDirection: "row", justifyContent:"center", gap: 20, marginVertical: 25}}>
+                    
                     <Entypo name="star" size={39} color="#F2DD1B" />
                     <Entypo name="star" size={39} color="#F2DD1B" />
                     <Entypo name="star" size={39} color="#F2DD1B"/>
