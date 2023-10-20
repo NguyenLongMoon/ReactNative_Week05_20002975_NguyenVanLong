@@ -36,16 +36,19 @@ export default function Layout2() {
             </View>
             <View style={{borderWidth: 1, borderRadius:8, borderColor: "#1511eb", paddingVertical: 18,justifyContent: "center", alignItems: "center", flexDirection: "row"}}>
                 <Image source={require("../../../assets/camera.png")}
+                    
                     resizeMode='contain' style={{width: 39, height: 39, marginHorizontal: 10}}   
                 />
 
                 <Text style={{fontSize: 18, fontWeight:"700"}}>Thêm hình ảnh</Text>
             </View>
+            
             <View style={{position: "relative",marginTop: 15, padding: 15
             , borderWidth: 1, borderColor: "#999", borderRadius: 10}}>
                 <TextInput multiline={true} placeholder='Hãy chi sẻ những điều mà bạn thích về sản phẩm'
                     style={{fontSize: 18, fontWeight: "700", textAlignVertical: "top"}}
                     placeholderTextColor={"#C4C4C4"}
+                   
                     numberOfLines={10}
                 />
                 <Text style={{fontWeight: "bold",width:"100%" ,textAlign: "right"}} >https://meet.google.com/nsj-ojwi-xpp</Text>
