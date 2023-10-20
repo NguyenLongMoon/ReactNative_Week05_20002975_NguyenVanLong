@@ -10,8 +10,8 @@ import Layout4 from './src/components/layout4';
 export default function App() {
   return (
     //  <Layout1/>
-    <Layout2/>
-      // <Layout3/>
+    // <Layout2/>
+       <Layout3/>
       // <Layout4/> 
   );
 }
